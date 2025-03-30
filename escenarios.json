@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "titulo": "Preparación del primer día de clases",
+        "narrativa": "Estás por iniciar clases como profesor(a) de {materia} en {nivel_educativo}. Tendrás un grupo de {numero_alumnos} estudiantes. Sabes que el primer día marcará la pauta. ¿Cómo preparas tu clase inicial?",
+        "opciones": {
+            "A": {
+                "texto": "Diseñas una sesión muy teórica para mostrar que dominas el contenido.",
+                "consecuencia": "El grupo se siente abrumado y participa poco.",
+                "retroalimentacion": "Es importante conectar con el grupo antes de profundizar en los contenidos. Mostrar empatía genera confianza."
+            },
+            "B": {
+                "texto": "Preparas actividades para conocer al grupo y que ellos te conozcan.",
+                "consecuencia": "Los estudiantes se sienten valorados y se genera un ambiente positivo.",
+                "retroalimentacion": "Crear vínculos desde el inicio fortalece el manejo del grupo y la motivación."
+            },
+            "C": {
+                "texto": "Usas un plan genérico con una presentación en PowerPoint y un resumen.",
+                "consecuencia": "La clase es poco memorable. Se mantiene el orden pero sin mucho interés.",
+                "retroalimentacion": "Personalizar tus sesiones al contexto real siempre tendrá mejores resultados que usar materiales genéricos."
+            }
+        }
+    },
+    {
+        "id": 2,
+        "titulo": "Primer día de clases",
+        "narrativa": "Llegas al salón para tu primera clase. Los estudiantes están hablando, algunos usan el celular y no te prestan atención. ¿Qué haces?",
+        "opciones": {
+            "A": {
+                "texto": "Exiges silencio inmediato y comienzas a dictar reglas.",
+                "consecuencia": "Se impone respeto, pero el ambiente es rígido.",
+                "retroalimentacion": "La autoridad positiva se construye con firmeza y cercanía, no solo con imposición."
+            },
+            "B": {
+                "texto": "Saludas, haces contacto visual y propones una dinámica de presentación.",
+                "consecuencia": "Logras captar su atención y generar cercanía.",
+                "retroalimentacion": "Establecer el vínculo emocional fortalece tu liderazgo desde el inicio."
+            },
+            "C": {
+                "texto": "Esperas que se callen solos para empezar.",
+                "consecuencia": "El ruido continúa y pierdes credibilidad.",
+                "retroalimentacion": "Mostrar presencia docente clara desde el primer día marca una diferencia en la gestión del grupo."
+            }
+        }
+    }
+]
